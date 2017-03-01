@@ -5,16 +5,10 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>QueuePeek RP</title>
+<title>Demo SP</title>
 </head>
 <body>
-
-	<!-- <form action="loginController" method="post">
-		Enter username :<input type="text" name="username"> <br>
-		Enter password :<input type="password" name="password"><br>
-		<input type="submit" value="Login">
-	</form> -->
-	<h1>Welcome to QueuePeek!</h1>
+	<h1>Welcome to Demo SP!</h1>
 	<h3>Sign In</h3>
 	<form class="form-horizontal" action="loginController" method="post">
 		<fieldset>
@@ -33,27 +27,27 @@
 					<div class="form-group">
 						<div class="col-lg-10 col-lg-offset-2 center-block">
 							<br></br>
-							<button type="reset" class="btn btn-default">Cancel</button>
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn btn-primary">Sign In</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</fieldset>
 	</form>
-	<br></br>
 	<h3>OR</h3>
-	<br></br>
+	</br>
 	<form id="OpenIdRegistrationForm" id="form" action="VerifyServlet"
 		method="POST">
-		<h3>Sign In with OpenID</h3>
-		<br /> <label for="inputEmail" class="col-lg-2 control-label">Your
-			Open ID</label>
-		<div class="col-lg-10 ">
-			<input type="text" class="form-control" id="openId"
-				name="openidvalue">
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</div>
+		<fieldset>
+			<div class="form-group">
+				<label for="inputEmail" class="col-lg-2 control-label">Your
+					Open ID URL</label>
+				<div class="col-lg-10">
+					<input type="text" class="form-control" id="openId"
+						name="openidvalue"> </br>
+					<button type="submit" class="btn btn-primary">Sign In</button>
+				</div>
+			</div>
 	</form>
 </body>
 </html>
